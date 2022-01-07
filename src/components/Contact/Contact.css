@@ -1,0 +1,23 @@
+.contact {
+  flex-direction: column;
+}
+a{
+  margin: auto 10px;
+}
+.animateOpen{
+	 width : 20%;
+  position : absolute;
+  left : 40%;
+  margin-top: 20px;
+  
+	
+ animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
