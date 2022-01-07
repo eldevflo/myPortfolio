@@ -20,11 +20,12 @@ const Skills = () => {
               valueEnd={sk.percentage}
               duration={1.4}
               easingFunction={easeQuadInOut}
+              key={index}
             >
             {(value) =>{
               const roundedValue = Math.round(value);
               return(
-              <div className="skill_progress" key={index} style={{ width: 200, height: 200 }}> 
+              <div className="skill_progress"  style={{ width: 200, height: 200 }}> 
               <CircularProgressbar 
                   value={value} 
                   text={`${roundedValue}%`}
