@@ -30,7 +30,7 @@ const Contact = () => {
                 <MailIcon fontSize="large"/>
         </a>
          <a
-                href={`mailto:${contact.email}`}
+                href='https://t.me/fzmnpr'
                 aria-label='github'
                 className='link link--icon'
               >
