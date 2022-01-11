@@ -39,10 +39,11 @@ const Skills = () => {
                         },
                           strokeLinecap: 'round',
                           textSize: '12px',
+                          fontWeight : 'bold',
                           pathTransitionDuration: 0.5,
                         // Colors
                       pathColor: '#90a0d9',
-                      textColor: '#fff',
+                      textColor: '#90a0d9',
                       trailColor: '#d6d6d6',
                       backgroundColor: '#90a0d9',
                   })}
