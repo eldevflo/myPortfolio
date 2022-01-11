@@ -34,7 +34,12 @@
 .about .btn--outline {
   margin: 1em;
 }
-
+.profile-photo{
+  z-index: 999;
+}
+.profile-photo:hover{
+  transform : translateY(-4px)
+}
 @media (max-width: 600px) {
   .app .about {
     align-items: flex-start;

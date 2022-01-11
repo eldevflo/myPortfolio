@@ -11,8 +11,8 @@ const about = {
   description:
     'An ambitious problem solver with a passion for online businesses. I am thorough and precise in everything I do, and have a keen interest in technology and web applications. As someone who takes responsibility for his own personal development, I am continually evaluating and upgrading my skills so that I stay at the cutting edge of web development. I am a Front-End developer mainly focused on ReactJs.',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/fatemeh-zamanipour-b7324ab9/',
+    github: 'https://github.com/fzmnpr',
   },
 }
 

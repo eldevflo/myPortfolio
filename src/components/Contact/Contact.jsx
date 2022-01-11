@@ -30,7 +30,8 @@ const Contact = () => {
                 <MailIcon fontSize="large"/>
         </a>
          <a
-                href='https://t.me/fzmnpr'
+                href='https://t.me/Fzmnpr'
+                target="_blank"
                 aria-label='github'
                 className='link link--icon'
               >
@@ -39,6 +40,7 @@ const Contact = () => {
          <a
                 href='https://wa.me/9909345731'
                 aria-label='github'
+                target="_blank"
                 className='link link--icon'
               >
                 <WhatsAppIcon fontSize="large"/>

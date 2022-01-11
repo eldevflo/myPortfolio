@@ -1,19 +1,21 @@
 import { skills , otherSkills } from '../../portfolio'
 import './Skills.css'
 import { CircularProgressbar , buildStyles  } from 'react-circular-progressbar';
-import { useEffect } from 'react';
+import { useState } from 'react';
 import AnimatedProgressProvider from '../../contexts/AnimatedProgressProvider';
 import { easeQuadInOut } from 'd3-ease';
+import { InView } from 'react-intersection-observer';
 
 const Skills = () => {
-  useEffect(() => {
-
-  })
+  const [inView, setInView] = useState(null);
   return (
-    <section className='section skills' id='skills'>
+    <InView as="section" 
+      onChange={(inView) => setInView(inView)} 
+      className='section skills' 
+      id='skills'>
       <h2 className='section__title'>Skills</h2>
-      <div className="main-skills">
-        {
+      {inView && <div className="main-skills">
+        { 
           skills.map((sk , index) =>(
             <AnimatedProgressProvider
               valueStart={0}
@@ -44,16 +46,17 @@ const Skills = () => {
                       trailColor: '#d6d6d6',
                       backgroundColor: '#90a0d9',
                   })}
-
                   />
+            
                   <p>{sk.name}</p>
               </div>
+            
               )}}
             </AnimatedProgressProvider>
-            
+           
           ))
         }
-      </div>
+      </div>}
        <h2 className='section__title'>Other Skills</h2>
       <ul className='skills__list'>
         {otherSkills.map((skill , index) => (
@@ -62,7 +65,7 @@ const Skills = () => {
           </li>
         ))}
       </ul>
-    </section>
+    </InView>
   )
 }
 

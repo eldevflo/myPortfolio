@@ -5,12 +5,10 @@ a{
   margin: auto 10px;
 }
 .animateOpen{
-	 width : 20%;
+	width : 20%;
   position : absolute;
   left : 40%;
-  margin-top: 20px;
-  
-	
+  margin-top: 20px;	
  animation: fadeIn 3s;
   -webkit-animation: fadeIn 3s;
   -moz-animation: fadeIn 3s;

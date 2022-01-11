@@ -9,7 +9,7 @@ const About = () => {
   return (
     <div className='about center'>
        
-      <img src={profile} width={250} />
+      <img src={profile} width={250} className="profile-photo" />
       
       {name && (
         <h1>
@@ -29,6 +29,7 @@ const About = () => {
                 href={social.github}
                 aria-label='github'
                 className='link link--icon'
+                target="_blank"
               >
                 <GitHubIcon fontSize="large"/>
               </a>
@@ -39,6 +40,7 @@ const About = () => {
                 href={social.linkedin}
                 aria-label='linkedin'
                 className='link link--icon'
+                target="_blank"
               >
                 <LinkedInIcon fontSize="large" />
               </a>
