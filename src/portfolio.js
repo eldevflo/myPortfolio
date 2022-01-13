@@ -25,21 +25,23 @@ const projects = [
       'A react web site to search for jobs, including informations about finding a perfect career and some packages to help people find their dream job',
     stack: ['tailwind css', 'React'],
     sourceCode: 'https://github.com/fzmnpr/jobhunt',
-  },
-  {
-    name: 'Vanilla js project',
-    description:
-      'A simple website to show you my javascript skills. it has diffrent parts like shopping , date and time converter etc',
-    stack: ['javascript', 'bootstrap'],
-    sourceCode: 'https://github.com/fzmnpr/vanillaJsProject',
+
   },
   {
     name: 'pwa weather App',
     description:
-      'A moder pw web Application to search for weather information all over the world',
-    stack: ['javascript', 'React'],
+      'A modern pw web Application to search for weather information all over the world',
+    stack: ['javascript', 'React' , 'material-ui'],
     sourceCode: 'https://github.com/fzmnpr/Pwa-app',
     livePreview: 'https://trusting-rosalind-e9222d.netlify.app/',
+  },
+  {
+    name: 'PWA React Dictionary',
+    description:
+      'A moder pw dictionary web Application to search for a word and see definitions , synonyms and pronanciation',
+    stack: ['javascript', 'React' , 'sass'],
+    sourceCode: 'https://github.com/fzmnpr/pwa-dictionary',
+    livePreview: 'https://angry-wozniak-c91de3.netlify.app/'
   },
 ]
 
@@ -71,7 +73,8 @@ const otherSkills = [
   'jQuery',
   'APIs',
   'HTML',
-  'css'
+  'css',
+  'tailwindcss'
 ]
 
 const contact = {

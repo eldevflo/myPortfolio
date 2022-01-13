@@ -15,6 +15,14 @@ const Projects = () => {
           <ProjectContainer key={index} project={project} />
         ))}
       </div>
+      <div  style={{textAlign: 'center' , marginTop: '20px'}}>
+      <a 
+        href="/https://github.com/fzmnpr"
+        target="_blank"
+        style={{textDecoration : 'underline'}}>
+        to see all my projects , you can visit my gitHub 
+      </a>
+      </div>
     </section>
   )
 }
